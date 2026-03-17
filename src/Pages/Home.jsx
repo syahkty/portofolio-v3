@@ -4,6 +4,7 @@ import { Github, Linkedin, Mail, ExternalLink, Instagram, Sparkles } from "lucid
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+
 const StatusBadge = memo(() => (
   <div className="inline-block animate-float lg:mx-0" data-aos="zoom-in" data-aos-delay="400">
     <div className="relative group">
@@ -24,7 +25,7 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+          Web
         </span>
       </span>
       <br />
@@ -76,12 +77,12 @@ const SocialLink = memo(({ icon: Icon, link, label }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
-const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
+const WORDS = ["System Information Student", "Tech Enthusiast"];
+const TECH_STACK = ["Python", "Javascript", "Node.js", "Tailwind", "Flutter"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/EkiZR", label: "GitHub Profile" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/", label: "LinkedIn Profile" },
-  { icon: Instagram, link: "https://www.instagram.com/ekizr_/?hl=id", label: "Instagram Profile" }
+  { icon: Github, link: "https://github.com/syahkty", label: "GitHub Profile" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/andi-syahkty/", label: "LinkedIn Profile" },
+  { icon: Instagram, link: "https://www.instagram.com/andi_syahkty/", label: "Instagram Profile" }
 ];
 
 const Home = () => {
@@ -140,39 +141,39 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Eki Zulfar Rachman — Frontend Web Developer</title>
-        <meta name="description" content="Website resmi Eki Zulfar Rachman, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
+        <title>Andi Syahkty Alifah Assalam — Web Developer</title>
+        <meta name="description" content="Website resmi Andi Syahkty Alifah Assalam, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
      <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ekizr.com" />
-        <meta property="og:title" content="Eki Zulfar Rachman — Frontend Web Developer" />
-     <meta property="og:description" content="Website resmi dan portofolio Eki Zulfar Rachman, Front-End Web Developer." />
-        <meta property="og:url" content="https://ekizr.com" />
+        <link rel="canonical" href="https://sykty.com" />
+        <meta property="og:title" content="Andi Syahkty Alifah Assalam — Web Developer" />
+     <meta property="og:description" content="Website resmi dan portofolio Andi Syahkty Alifah Assalam, Web Developer." />
+        <meta property="og:url" content="https://sykty.com" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
             "@type": "Person",
-            "name": "Eki Zulfar Rachman",
+            "name": "Andi Syahkty Alifah Assalam",
             "jobTitle": "Frontend Developer",
-            "url": "https://ekizr.com",
+            "url": "https://sykty.com",
             "sameAs": [
-              "https://github.com/EkiZR",
-              "https://www.linkedin.com/in/ekizr/",
-              "https://www.instagram.com/ekizr_/"
+              "https://github.com/syahkty",
+              "https://www.linkedin.com/in/andi-syahkty/",
+              "https://www.instagram.com/andi_syahkty/"
             ]
           }
         `}</script>
       </Helmet>
 
-      <div className="min-h-screen bg-[#030014] overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%]" id="Home">
+      <div className="min-h-screen bg-[#030014] px-[5%] sm:px-[5%] lg:px-[10%]" id="Home">
         <div className={`relative z-10 transition-all duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}>
           <div className="container mx-auto min-h-screen">
-            <div className="flex flex-col lg:flex-row items-center justify-center h-screen md:justify-between gap-0 sm:gap-12 lg:gap-20">
+            <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen md:justify-between gap-0 sm:gap-12 lg:gap-20">
               {/* Left Column */}
-              <div className="w-full lg:w-1/2 space-y-6 sm:space-y-8 text-left lg:text-left order-1 lg:order-1 lg:mt-0"
+              <div className="w-full lg:w-1/2 space-y-6 sm:space-y-8 text-left lg:text-left order-1 lg:order-1 pt-20 lg:pt-0"
                 data-aos="fade-right"
                 data-aos-delay="200">
-                <div className="space-y-4 sm:space-y-6">
+                <div className="space-y-4 sm:space-y-6 ">
                   <StatusBadge />
                   <MainTitle />
 
@@ -188,7 +189,7 @@ const Home = () => {
                   <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                     data-aos="fade-up"
                     data-aos-delay="1000">
-                    Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
+                    Berbagai macam pengalaman dalam pengembangan web dan aplikasi mobile.
                   </p>
 
                   {/* Tech Stack */}
