@@ -4,7 +4,7 @@ Halo semuanya! 👋
 
 Perkenalkan, saya **Andi Syahkty**, seorang mahasiswa Sistem Informasi di Universitas Tadulako. Ini adalah repositori untuk proyek website portofolio pribadi yang saya kembangkan. Web ini dibangun menggunakan React dan Supabase, dilengkapi dengan halaman publik dan dashboard admin untuk mengelola konten.
 
-**Live Demo:** [Masukkan Link Vercel Kamu Di Sini Nanti]
+**Live Demo:** [https://syahkty.dev](https://syahkty.dev)
 
 ---
 

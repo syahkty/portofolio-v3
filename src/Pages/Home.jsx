@@ -142,20 +142,20 @@ const Home = () => {
     <>
       <Helmet>
         <title>Andi Syahkty Alifah Assalam — Web Developer</title>
-        <meta name="description" content="Website resmi Andi Syahkty Alifah Assalam, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
+        <meta name="description" content="Website resmi Andi Syahkty Alifah Assalam, Full Stack Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
      <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://sykty.com" />
+        <link rel="canonical" href="https://syahkty.dev" />
         <meta property="og:title" content="Andi Syahkty Alifah Assalam — Web Developer" />
      <meta property="og:description" content="Website resmi dan portofolio Andi Syahkty Alifah Assalam, Web Developer." />
-        <meta property="og:url" content="https://sykty.com" />
+        <meta property="og:url" content="https://syahkty.dev" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{`
           {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Andi Syahkty Alifah Assalam",
-            "jobTitle": "Frontend Developer",
-            "url": "https://sykty.com",
+            "jobTitle": "Full Stack Developer",
+            "url": "https://syahkty.dev",
             "sameAs": [
               "https://github.com/syahkty",
               "https://www.linkedin.com/in/andi-syahkty/",
